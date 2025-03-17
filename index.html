@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-2</title>
+    <!-- Including D3 library -->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <!-- Adding the required styling -->
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            height: 100vh;
+            padding: 20px;
+            text-align: left;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .section {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .button-container {
+            display: flex;
+            gap: 10px;
+            margin-left: 5px;
+        }
+        .btn {
+            padding: 5px 12px; 
+            font-size: 14px;  
+            background-color: #aaff00;
+            color: rgb(13, 1, 1);
+            cursor: pointer;
+            text-align: center;
+            border: none;
+        }
+        .btn:hover {
+            background-color: #009eb3;
+        }
+    </style>
+</head>
+<body>
+<!-- 
+    Buttons to easily navigate to different parts of the Assignment -->
+    <h1>CSCE-679 Assignment 2</h1>
+
+    <div class="section">
+        <span><strong>Level 1 Solutions:</strong></span>
+        <div class="button-container">
+            <button class="btn" onclick="window.location.href='index1-min.html'">Minimum Temperature</button>
+            <button class="btn" onclick="window.location.href='index1-max.html'">Maximum Temperature</button>
+        </div>
+    </div>
+
+    <div class="section">
+        <span><strong>Level 2 Solution:</strong></span>
+        <button class="btn" onclick="window.location.href='index2.html'">Level 2</button>
+    </div>
+
+</body>
+</html>
